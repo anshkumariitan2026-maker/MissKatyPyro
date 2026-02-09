@@ -230,16 +230,13 @@ async def help_parser(name, keyb=None):
     if not keyb:
         keyb = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
-        """Hello {first_name}, My name is {bot_name}.
-I'm a bot with some useful features. You can change language bot using /setlang command, but it's still in beta stage.
-You can choose an option below, by clicking a button.
+        """💗 Hᴇʟʟᴏ {frist_name}, Mʏ ɴᴀᴍᴇ ɪs {bot_name}. 
 
-Send command /privacy if you want know data collected by this bot.
-
-If you want give coffee to my owner you can send /donate command for more info.
+➤ I'ᴍ ᴀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs. Yᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ʟᴀɴɢᴜᴀɢᴇ ʙᴏᴛ ᴜsɪɴɢ /setlang ᴄᴏᴍᴍᴀɴᴅ, ʙᴜᴛ ɪᴛ's sᴛɪʟʟ ɪɴ ʙᴇᴛᴀ sᴛᴀɢᴇ.
+➤ Yᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ.
 """.format(
             first_name=name,
-            bot_name="MissKaty",
+            bot_name="˹ᴋᴇʟʟʏ ꭙ ᴍᴀɴᴀɢᴇʀ˼",
         ),
         keyb,
     )
