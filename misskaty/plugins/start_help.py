@@ -230,7 +230,7 @@ async def help_parser(name, keyb=None):
     if not keyb:
         keyb = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
-        """💗 Hᴇʟʟᴏ {frist_name}, Mʏ ɴᴀᴍᴇ ɪs {bot_name}. 
+        """💗 Hᴇʟʟᴏ 👋, Mʏ ɴᴀᴍᴇ ɪs {bot_name}. 
 
 ➤ I'ᴍ ᴀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs. Yᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ʟᴀɴɢᴜᴀɢᴇ ʙᴏᴛ ᴜsɪɴɢ /setlang ᴄᴏᴍᴍᴀɴᴅ, ʙᴜᴛ ɪᴛ's sᴛɪʟʟ ɪɴ ʙᴇᴛᴀ sᴛᴀɢᴇ.
 ➤ Yᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ.
